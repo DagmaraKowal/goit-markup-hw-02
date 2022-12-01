@@ -6,13 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--text-color);
 }
-.header-menu: {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-
+.header-menu {
   background: #ffffff;
 }
 .logo {
@@ -28,7 +22,7 @@ body {
   margin-left: 215px;
 }
 .studio-logo {
-  color: #212121;
+  color: var(--text-color);
 }
 
 ul {
@@ -36,12 +30,6 @@ ul {
 }
 
 .link-agencja {
-  position: absolute;
-  width: 53px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -51,12 +39,6 @@ ul {
   color: var(--text-color);
 }
 .link-portfolio {
-  position: absolute;
-  width: 58px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -66,12 +48,6 @@ ul {
   color: var(--text-color);
 }
 .link-kontakt {
-  position: absolute;
-  width: 51px;
-  height: 16px;
-  left: 674px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -81,12 +57,6 @@ ul {
   color: var(--text-color);
 }
 .email {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -96,12 +66,6 @@ ul {
   color: #2196f3;
 }
 .tel_number {
-  position: absolute;
-  width: 110px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -131,7 +95,6 @@ ul {
   background: #2f303a;
 }
 .header-title {
-  position: absolute;
   width: 696px;
   height: 120px;
   left: 452px;
@@ -150,7 +113,6 @@ ul {
 }
 
 .order-button {
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -167,33 +129,23 @@ ul {
   color: #ffffff;
   cursor: pointer;
   border: 0cm;
-  
 }
-.index-main: {
+.index-main {
   width: 1600px;
   height: 2349px;
 }
 
-.h4-no1: {
-  width: 270px;
-  height: 16px;
-  left: 215px;
-  top: 774px;
-
+.h4-no1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--text-color);
 }
 
-.p-no1: {
-  width: 270px;
-  height: 75px;
-  left: 215px;
-  top: 800px;
+.p-no1 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -203,20 +155,15 @@ ul {
   color: #757575;
 }
 
-.h4-no2: {
+.h4-no2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--text-color);
 }
-.p-no2: {
-  width: 270px;
-  height: 75px;
-  left: 515px;
-  top: 800px;
-
+.p-no2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -225,26 +172,16 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.h4-no3: {
-  width: 270px;
-  height: 16px;
-  left: 815px;
-  top: 774px;
-
+.h4-no3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--text-color);
 }
-.p-no3: {
-  width: 270px;
-  height: 75px;
-  left: 815px;
-  top: 800px;
-
+.p-no3 {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -254,27 +191,17 @@ ul {
 
   color: #757575;
 }
-.h4-no4: {
-  width: 270px;
-  height: 16px;
-  left: 1115px;
-  top: 774px;
-
+.h4-no4 {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--text-color);
 }
 
-.p-no4: {
-  width: 270px;
-  height: 75px;
-  left: 1115px;
-  top: 800px;
-
+.p-no4 {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -293,9 +220,9 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-color);
 }
-.img_box1: {
+.img_box1 {
   width: 370px;
   height: 294px;
   left: 215px;
@@ -304,7 +231,7 @@ ul {
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
 }
-.img_box2: {
+.img_box2 {
   width: 370px;
   height: 294px;
   left: 615px;
@@ -312,7 +239,7 @@ ul {
 
   background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
 }
-.img_box3: {
+.img_box3 {
   width: 370px;
   height: 294px;
   left: 1015px;
@@ -336,10 +263,9 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-color);
 }
 .box_shadow1 {
-  position: absolute;
   width: 270px;
   height: 368px;
   left: 215px;
@@ -367,10 +293,25 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-color);
 }
+.title {
+  width: 76px;
+  height: 19px;
+  left: 912px;
+  top: 1954px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
 .box_shadow2 {
-  position: absolute;
   width: 270px;
   height: 368px;
   left: 515px;
@@ -384,7 +325,6 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 .box_shadow3 {
-  position: absolute;
   width: 270px;
   height: 368px;
   left: 815px;
@@ -398,7 +338,6 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 .box_shadow4 {
-  position: absolute;
   width: 270px;
   height: 368px;
   left: 1115px;
@@ -412,12 +351,6 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 footer {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-
   background: #2f303a;
 }
 .logo2 {
@@ -483,20 +416,16 @@ address {
 /* PORTFOLIO */
 
 .portfolio-main {
-  position: absolute;
-  width: 1170px;
-  height: 1360px;
-  left: 215px;
-  top: 174px;
-
   display: block;
-  background:#FFFFFF;;
+  background: #ffffff;
 }
 .portfolio-buttons {
- 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-rendering: auto;
   text-transform: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   text-indent: 0px;
   text-shadow: none;
   display: inline-block;
@@ -505,111 +434,70 @@ address {
   cursor: pointer;
   text-decoration: none;
   border: none;
-  
-  
+  letter-spacing: 0.03em;
+
   margin: 0em;
   padding: 1px 6px;
   border-width: 2px;
 
- 
   width: 121px;
   height: 38px;
   left: 510px;
   top: 174px;
-  
 }
 .portfolio-buttons:hover,
 .portfolio-buttons:focus {
-    background-color: #2196F3;
-    color: #ffffff
-
+  background-color: #2196f3;
+  color: #ffffff;
 }
-ul {list-style: none}
+ul {
+  list-style: none;
+}
 
+.filter_container {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
 
-    
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
 
-.filter_container {box-sizing: border-box;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
-    
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;}
+.name_portfolio {
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
 
-.name_portfolio1 {
-    width: 322px;
-    height: 36px;
-    left: 239px;
-    top: 576px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    /* identical to box height, or 200% */
-    
-    letter-spacing: 0.06em;
-    
-    color: #212121;}
+.span_portfolio {
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
 
-    .span_portfolio1 {
-        width: 322px;
-        height: 30px;
-        left: 239px;
-        top: 616px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        /* identical to box height, or 188% */
-        
-        letter-spacing: 0.03em;
-        
-        color: #757575;}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
 
-.name_portfolio9 {
-    width: 322px;
-    height: 36px;
-    left: 1039px;
-    top: 1444px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    /* identical to box height, or 200% */
-    
-    letter-spacing: 0.06em;
-    
-    color: #212121;}
-.span_portfolio9 {
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
-    width: 322px;
-    height: 30px;
-    left: 639px;
-    top: 1484px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    
-    letter-spacing: 0.03em;
-    
-    color: #757575;
-    }
-body {position: relative;
-    width: 1600px;
-    height: 1880px;
-    
-    background: #FFFFFF;}
+body {
+  position: relative;
+  width: 1600px;
+  height: 1880px;
 
-    
+  background: #ffffff;
+}
